@@ -28,7 +28,7 @@ Inti utama dari penggunaan teknik VLSM adalah untuk mengefisienkan pembagian IP 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/VLSM_Tree_D11.png">
 
 
-### Setting pada CPT ( Cisco Packet Tracer )
+### A. Setting pada CPT ( Cisco Packet Tracer )
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/topologi(2).PNG">
 
@@ -63,7 +63,7 @@ Lakukan hal yang sama untuk mengatur alamat IP setiap interface pada device yang
 
 Setelah selesai, lakukan langkah selanjutnya yaitu Routing agar topologi dapat berfungsi dengan semestinya.
 
-### Routing
+### B. Routing
 
 Pada CPT, Routing dapat dilakukan pada menu Config > Routing > Static pada device Router. Lalu isi Static Routes seperti gambar dibawah pada SURABAYA dan tekan tombol Add
 
@@ -81,5 +81,12 @@ Keterangan :
 - Network adalah Network ID yang akan dihubungkan
 - Mask adalah netmask dari subnet A4
 - Next Hop (disebut gateway), adalah IP yang dituju ketika ingin menuju subnet poin 1, yaitu interface pada PASURUAN yang mengarah ke SURABAYA
+
+### C. Testing
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/testing_cpt.PNG">
+
+### 2. CIDR ( Classless Inter-Domain Routing )
+
 
 
