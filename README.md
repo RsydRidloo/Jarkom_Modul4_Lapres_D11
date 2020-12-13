@@ -28,3 +28,24 @@ Inti utama dari penggunaan teknik VLSM adalah untuk mengefisienkan pembagian IP 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/VLSM_Tree_D11.png">
 
 
+### Setting pada CPT ( Cisco Packet Tracer )
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/topologi(2).PNG">
+
+Atur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM.
+
+Pada CPT, interface dapat diatur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP pada subnet A4.
+
+Atur IP pada interface SURABAYA yang mengarah ke PASURUAN dengan 192.168.1.5.
+
+<img src="">
+
+Atur IP pada interface TULUNGAGUNG yang mengarah ke SURABAYA dengan 192.168.1.6.
+
+<img src="">
+
+Selanjutnya atur IP pada subnet A8. Atur IP pada interface TULUNGAGUNG yang mengarah ke client dengan 192.168.1.65.
+
+<img src="">
+
+
