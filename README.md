@@ -88,5 +88,24 @@ Keterangan :
 
 ### 2. CIDR ( Classless Inter-Domain Routing )
 
+Menggabungkan subnet-subnet mulai dari yang paling jauh dalam topologi, penggabungannya:
 
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet1_cidr.PNG">
 
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet2_cidr.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet3_cidr.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet4_cidr.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet5_cidr.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet5_cidr.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet7_cidr.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/subnet8_cidr.PNG">
+
+Sehingga di dapatkan berikut pohon pembagian IP berdasarkan penggabungan subnet yang telah dilakukan:
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/CIDR_Tree_D11.PNG">
