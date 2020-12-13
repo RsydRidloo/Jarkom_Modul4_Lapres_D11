@@ -36,16 +36,46 @@ Atur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pe
 
 Pada CPT, interface dapat diatur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP pada subnet A4.
 
-Atur IP pada interface SURABAYA yang mengarah ke PASURUAN dengan 192.168.1.5.
+Atur IP pada interface SURABAYA yang mengarah ke PASURUAN dengan 192.168.0.5.
 
-<img src="">
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/SBY.PNG">
 
-Atur IP pada interface TULUNGAGUNG yang mengarah ke SURABAYA dengan 192.168.1.6.
+Atur IP pada interface PASURUAN yang mengarah ke SURABAYA dengan 192.168.0.6.
 
-<img src="">
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/pasuruan1.PNG">
 
-Selanjutnya atur IP pada subnet A8. Atur IP pada interface TULUNGAGUNG yang mengarah ke client dengan 192.168.1.65.
+Selanjutnya atur IP pada subnet A8. Atur IP pada interface PASURUAN yang mengarah ke client dengan 192.168.8.1
 
-<img src="">
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/pasuruan2.PNG">
+
+Atur IP pada client (nama UML nya) dengan cara :
+- Masuk ke client
+- Pilih tab Desktop
+- Pilih IP Configuration
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/client1_cpt.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/client2_cpt.PNG">
+
+Lakukan hal yang sama untuk mengatur alamat IP setiap interface pada device yang ada dalam topologi. 
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/setting_interfaces_cpt.PNG">
+
+Setelah selesai, lakukan langkah selanjutnya yaitu Routing agar topologi dapat berfungsi dengan semestinya.
+
+### Routing
+
+Pada CPT, Routing dapat dilakukan pada menu Config > Routing > Static pada device Router. Lalu isi Static Routes seperti gambar dibawah pada SURABAYA dan tekan tombol Add
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routing_sby_cpt.PNG">
+
+Pada static routing juga dibutuhkan default routing agar router dapat mengirimkan paket sesuai dengan tujuan. Default routing dibutuhkan untuk router yang berada di bawah router utama (router yang terhubung internet), contohnya TULUNGAGUNG
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routing_pasuruan_cpt.PNG">
+
+Keterangan :
+- Network adalah Network ID yang akan dihubungkan
+- Mask adalah netmask dari subnet A4
+- Next Hop (disebut gateway), adalah IP yang dituju ketika ingin menuju subnet poin 1, yaitu interface pada PASURUAN yang mengarah ke SURABAYA
 
 
