@@ -13,6 +13,8 @@ Kita memiliki topologi jaringan seperti gambar di atas. Lalu, kita tentukan juml
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/TopologyVLsm_pembagian%20subnet(3).PNG" >
 
+### Kelopok kami menggunakan VLSM pada CPT, dan CIDR pada UML
+
 ### 1. VLSM (Variable Length Subnet Masking)
 
 Inti utama dari penggunaan teknik VLSM adalah untuk mengefisienkan pembagian IP di dalam jaringan. Besar netmask disesuaikan dengan banyaknya komputer/ host yang membutuhkan alamat IP.
