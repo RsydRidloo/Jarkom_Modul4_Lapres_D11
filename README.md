@@ -109,3 +109,63 @@ Menggabungkan subnet-subnet mulai dari yang paling jauh dalam topologi, penggabu
 Sehingga di dapatkan berikut pohon pembagian IP berdasarkan penggabungan subnet yang telah dilakukan:
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/CIDR_Tree_D11.PNG">
+
+**Menyetting interface pada tiap UML:**
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/surabaya.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/pasuruan.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/batu.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/kediri.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/malang.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/mojokerto.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/tulungaggung.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/jombang.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/lumajang.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/sampang.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/bojonegoro.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/sidoarjo.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/jember.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/nganjuk.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/probolinggo.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/bondowoso.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/banyuwangi.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/madiun.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/blitar.PNG">
+
+**Kemudian atur routing pada UML Surabaya, Pasuruan, Batu, Kediri:**
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routesby.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routepasur.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routebatu.PNG">
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routekediri.PNG">
+
+**Kemudian lakukan pengujian pada UML, berikut beberapa contohnya:**
+
+- Sidoarjo PING ke Mojokerto
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/bukti1.PNG">
+
+- Jember PING ke its.ac.id
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/bukti2.PNG">
