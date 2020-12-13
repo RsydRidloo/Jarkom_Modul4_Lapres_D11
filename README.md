@@ -73,6 +73,10 @@ Pada static routing juga dibutuhkan default routing agar router dapat mengirimka
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routing_pasuruan_cpt.PNG">
 
+Lakukan hal yang sama untuk mengatur routing pada setiap router
+
+<img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/routing_cpt.PNG">
+
 Keterangan :
 - Network adalah Network ID yang akan dihubungkan
 - Mask adalah netmask dari subnet A4
