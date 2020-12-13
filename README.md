@@ -36,15 +36,15 @@ Atur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pe
 
 Pada CPT, interface dapat diatur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP pada subnet A4.
 
-Atur IP pada interface SURABAYA yang mengarah ke PASURUAN dengan 192.168.0.5.
+Atur IP pada interface SURABAYA yang mengarah ke PASURUAN dengan *192.168.0.5*
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/SBY.PNG">
 
-Atur IP pada interface PASURUAN yang mengarah ke SURABAYA dengan 192.168.0.6.
+Atur IP pada interface PASURUAN yang mengarah ke SURABAYA dengan *192.168.0.6*
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/pasuruan1.PNG">
 
-Selanjutnya atur IP pada subnet A8. Atur IP pada interface PASURUAN yang mengarah ke client dengan 192.168.8.1
+Selanjutnya atur IP pada subnet A8. Atur IP pada interface PASURUAN yang mengarah ke client dengan *192.168.8.1*
 
 <img src="https://github.com/RsydRidloo/Jarkom_Modul4_Lapres_D11/blob/main/gambar/pasuruan2.PNG">
 
